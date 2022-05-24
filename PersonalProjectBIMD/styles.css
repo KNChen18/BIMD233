@@ -70,13 +70,22 @@ body {
       #cover {
         width: 800px;
         height: 800px;
-        margin: 0 auto;
+        margin-right: 100px;
+        margin-left: 300px;
+
+        margin: auto;
       }
       
       #cover > img {
         float: left;
         width: 45%;
-        margin: 1.66%;
+        margin: auto;
+
+        opacity: .75;
+        border: 2px solid;
+        border-color: beige;
+
+        
       }
 
       #cover > p {
@@ -90,20 +99,22 @@ body {
           font-family: monospace;
           font-size: 20px;
 
+          margin: auto;;
+
       }
 
 
       h2 {
-        margin-right: 100px;
-        margin-left: 300px;
+        margin: auto;
 
-        color:rgb(255, 255, 255);
+        color:rgb(134, 134, 134);
         font-family: monospace;
         font-size: 75px;
         text-align:center;
       }
 
       p {
+        margin: auto;
         margin-bottom: 100px;
         margin-right: 100px;
         margin-left: 300px;
