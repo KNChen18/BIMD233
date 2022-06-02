@@ -1,0 +1,67 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow:hidden;
+    margin: 0;
+}
+
+.sky, .dirt {
+    position: relative;
+}
+
+.sky {
+    height: 50%;
+    background-color: skyblue;
+}
+
+.dirt {
+    height:50%;
+    background:burlywood;
+
+}
+
+.wrappper{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.button1 {
+    position:relative;
+    position:center;
+    margin:30px;
+
+    background-color: #fa4455; 
+    border: none;
+    color: #364966;
+    padding: 20px;
+    text-align: center top;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 8px;
+    font-family: VALORANT;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: opacity 1s, transform 1s ease;
+  }
+
+.button1:hover {
+    opacity: 80px;
+    transform: rotate(360deg);
+}
+
+.Jett {
+    position:absolute;
+    top:-40px;
+    left:8px;
+    animation-name: Dash;
+    animation-duration: 2s; 
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: 5;
+}
+
+@keyframes Dash {
+    from{transform: translateX(0px)}
+    to{transform: translateX(750px)}
+}
